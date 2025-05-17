@@ -1,0 +1,123 @@
+            /* Opacité réduite au début */
+.header{
+    background: linear-gradient(180deg, rgba(0,0,0, 0.7), rgba(54,54,54,0.3) 39.24%,  rgba(28,28,28,0.2) 100%),
+    url("../img/banner1.jpg") center center / cover no-repeat;
+    color: #fff;
+    clear: both;
+}
+.top-bar{
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 8px 20px;
+    /*background-color: #C89446;*/
+}
+.top-bar a:hover{
+    color: #C89446;
+}
+.menu-item{
+    display: inline-block;
+    margin: 0 15px;
+    padding-top: 3px;
+}
+.logo{
+    margin-bottom: 15px;
+}
+.baseline{
+    padding: 75px 0 113px 0;
+    text-align: center;
+    line-height: 1;
+}
+.baseline-welcom{
+    font-family : 'Pinyon Script', cursif;
+    font-size: 3rem; /*2.2*/
+    color: #C89446;
+    text-transform: capitalize;
+    display: block;
+}
+.baseline-title{
+    font-size: 1.5625rem;
+    font-weight: 700;
+    display: block;
+    text-transform: uppercase;
+    /*letter-spacing: 4px;
+    padding-bottom: 10px;*/
+}
+
+.baseline-date, .baseline-lieu{
+    font-size: 1rem;
+    font-weight: 400;
+    display: block;
+    /*text-transform: uppercase;
+    letter-spacing: 4px;*/
+}
+.baseline-date{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.baseline-lieu img{
+    width: 15px;
+}
+
+@media only screen and (min-width: 600px){
+    .baseline-welcom{
+        font-size: 3.75rem;
+        padding-top: 20px;
+    }
+    .baseline-title{
+        font-size: 2.0625rem;
+        letter-spacing: 8px;
+    }
+    .baseline-date, .baseline-lieu{
+        font-size: 1.25rem;
+        /*letter-spacing: 5px;
+        padding-top: 5px;*/
+    }
+    .baseline{
+        padding: 106px 0 160px 0;
+    }
+}
+
+/*@media only screen and (min-width: 600px){
+    html{
+        font-size: 16px;
+    }
+    /*body{
+        background: linear-gradient(to top, rgba(255,255,255,0.6), rgba(255,255,255,0.6)),
+        url(../img/screenshot.png) top center no-repeat;
+    }
+    .header{
+        background: none;
+        border-bottom:1px solid red;
+    }*/
+    /*.logo{
+        margin-bottom: 0;
+    }
+    .top-bar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1150px;
+        margin: 0 auto;
+    }
+    .menu-button{
+        border: solid 1px #C89446;
+        padding: 7px 10px;
+    }
+    .baseline{
+        padding: 136px 0 230px 0;
+    }
+    .baseline-welcom{
+        font-size: 3.75rem;
+        padding-top: 0px;
+    }
+    .baseline-title{
+        font-size: 4.375rem;
+        letter-spacing: 8px;
+    }
+    .baseline-slogan{
+        font-size: 1.5rem;
+        letter-spacing: 5px;
+        padding-top: 5px;
+    }
+}

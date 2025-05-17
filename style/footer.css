@@ -1,0 +1,103 @@
+.reservation{
+    background: linear-gradient(180deg, rgba(0,0,0, 0.92), rgba(54,54,54,0.5) 39.24%, rgba(28,28,28,0.4) 100%),
+    url("../img/footer.jpg") center center / cover no-repeat;
+    color: rgb(255, 255, 255);
+    padding: 50px 0;
+}
+.reservation .title{
+    color: #fff;
+}
+.reservation input, .reservation select{
+    padding: 0 0.5rem;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #6f6f6f;
+    background: transparent;
+    text-transform: uppercase;
+    height: 40px;
+    font-size: 0.9375rem;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: background .3s, border-color .3s;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.reservation select{
+    background: no-repeat right 0.5rem center url(../img/Shape.png);
+}
+.reservation input:focus, .reservation select:focus{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.reservation .button{
+    width: 100%;
+}
+.button{
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: #fff;
+    background: #c89446;
+    border: 1px solid transparent;
+    padding: 11px 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .3s ease-in;
+}
+.button:hover{
+    color: #c89446;
+    border: 1px solid #c89446;
+    background: transparent;
+}
+.reservation p{
+    max-width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.reservation .block-centered .block-body{
+    max-width: 825px;
+    margin: auto;
+}
+select option{
+    color: #6f6f6f;
+}
+.text{
+    text-align: justify;
+}
+.text a{
+    color: #c89446;
+    cursor: pointer;
+    font-weight: 600;
+}
+@media only screen and (min-width: 600px){
+    .text{
+        text-align: center;
+    }
+    .reservation{
+        padding: 100px 0;
+    }
+    .reservation-form-row{
+        margin: 64px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .reservation-form-row input , .reservation-form-row select{
+        width: calc(33.3% - 20px);
+        margin-bottom: 0;
+    }
+    .reservation .button{
+        width: calc(33.3% - 20px);
+    }
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: #383737;
+    padding: 20px 0;
+    font-size: 1rem;
+    color: aliceblue;
+}
+.coll{
+    font-weight: 600;
+}
