@@ -96,6 +96,14 @@
     content: ' >';
 }
 
+.img-profile{
+    display: inline-block;
+    padding: 0 8px;
+    color: #C89446;
+}
+.img-profile:hover{
+    color: #c89446ba;
+}
 
 @media only screen and (min-width: 740px){
     .home-section{
