@@ -70,7 +70,6 @@
 }
 .card-programme strong{
     color: #C89446;
-    margin: 20px 0;
 }
 .card-programme::before{
     content: '';
