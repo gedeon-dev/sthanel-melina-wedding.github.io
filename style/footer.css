@@ -101,3 +101,14 @@ footer{
 .coll{
     font-weight: 600;
 }
+
+.link{
+    color: #c89446;
+    padding: 0 5px;
+}
+.link:hover{
+    color: #c89446a6;
+}
+.p{
+    margin: 3px 0;
+}
