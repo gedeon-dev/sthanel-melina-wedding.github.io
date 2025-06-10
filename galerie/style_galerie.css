@@ -11,6 +11,12 @@ body{
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
 }
+a span{
+    font-size: 14px;
+    color: #6f6f6f;
+    text-decoration: none!important;
+    border: none;
+}
 
 .container-galerie{
     width: 100%;
